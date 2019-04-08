@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>NettyHTTPServer</mainClass>
+                            <mainClass>PlatesService</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
