@@ -1,0 +1,10 @@
+POST,/plate,CreatePlate
+GET,/plate/id,GetPlate
+PATCH,/plate/id,UpdatePlate
+POST,/plate/addCommand/,AddCommand
+POST,/plate/updateCommand/,UpdateCommand
+POST,/plate/deleteCommand/,DeleteCommand
+POST,/plate/updateThreadPoolCount/,UpdateThreadPoolCount
+POST,/plate/updateDBPoolCount/,UpdateDBPoolCount
+GET,/plate/freeze/,FreezeQueue
+GET,/plate/resume/,ResumeQueue
