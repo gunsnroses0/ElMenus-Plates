@@ -29,6 +29,7 @@ public class CreatePlate extends Command {
 			AMQP.BasicProperties properties = (AMQP.BasicProperties) props.get("properties");
 			AMQP.BasicProperties replyProps = (AMQP.BasicProperties) props.get("replyProps");
 			Envelope envelope = (Envelope) props.get("envelope");
+			System.out.println("HashMap"+requestBodyHash.toString());
 			HashMap<String, Object> createdMessage = Plate.create(requestBodyHash);
 			JSONObject response = jsonFromMap(createdMessage);
 

@@ -1,4 +1,4 @@
-POST,/plate,CreatePlate
+POST,/plate/,CreatePlate
 GET,/plate/id,GetPlate
 PATCH,/plate/id,UpdatePlate
 POST,/plate/addCommand/,AddCommand

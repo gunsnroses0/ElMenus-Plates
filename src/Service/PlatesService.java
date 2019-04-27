@@ -57,8 +57,8 @@ public class PlatesService {
 
 	public static void main(String[] argv) {
 		run();
+		ServiceController.run();
 	}
-
 	public static void run() {
 		try {
 			updateHashMap();

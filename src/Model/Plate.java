@@ -57,6 +57,7 @@ public class Plate {
 		}
 		collection.insertOne(newPlate);
 		
+		System.out.println("NewPlate" + newPlate.toString());
 		JSONParser parser = new JSONParser();
 		HashMap<String, Object> returnValue = Command.jsonToMap((JSONObject) parser.parse(newPlate.toJson()));
 
