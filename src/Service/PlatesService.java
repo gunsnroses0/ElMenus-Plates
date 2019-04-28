@@ -29,6 +29,7 @@ import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
 import Commands.Command;
+import Model.Plate;
 import Commands.*;
 
 public class PlatesService {
@@ -58,6 +59,7 @@ public class PlatesService {
 	public static void main(String[] argv) {
 		run();
 		ServiceController.run();
+		Plate.initializeDb();
 	}
 	public static void run() {
 		try {
